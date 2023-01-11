@@ -93,7 +93,7 @@ const Portfolio = () => {
                 <small className="portfolio_description">Tools & Technologies used: {TnT}</small>
                 <small className="portfolio_description">Description: {activities}</small>
                 <div className="portfolio_item-cta">
-                  <a href={github} className="btn btn-primary" target="_blank" rel="noopener" >GitHub</a>
+                  <a href={github} className="btn btn-primary" rel="noopener" >GitHub</a>
                 </div>
               </SwiperSlide>
             )
