@@ -1,6 +1,7 @@
 .container.portfolio_container{
-  width: 40%;
-  padding-bottom: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
 }
 
 
@@ -51,12 +52,12 @@
 
 @media screen and (max-width: 1024px) {
   .container.portfolio_container{
-    width: 80%;
+    grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 600px){
   .container.portfolio_container{
-    width: 90%;
+    grid-template-columns: 1fr;
   }
 }
