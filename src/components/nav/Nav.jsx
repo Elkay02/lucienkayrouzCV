@@ -5,10 +5,10 @@ import { BiBook, BiMessageSquareDetail, BiStats } from "react-icons/bi"
 import {FaGraduationCap} from "react-icons/fa"
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#")
+  const [activeNav, setActiveNav] = useState("#top")
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""}><AiOutlineHome/></a>
+      <a href="#top" onClick={() => setActiveNav("#top")} className={activeNav === "#top" ? "active" : ""}><AiOutlineHome/></a>
       <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""}><FaGraduationCap/></a>
       <a href="#services" onClick={() => setActiveNav("#services")} className={activeNav === "#services" ? "active" : ""}><BiStats/></a>
       <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} className={activeNav === "#portfolio" ? "active" : ""}><BiBook/></a>
