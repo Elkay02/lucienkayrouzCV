@@ -5,7 +5,8 @@ import {BsBricks} from "react-icons/bs"
 import {FaGamepad} from "react-icons/fa"
 import {MdOutlineFastfood} from "react-icons/md"
 import {HiOutlineBookOpen} from "react-icons/hi"
-import {ImStatsDots, ImStatsBars} from "react-icons/im"
+import {ImStatsDots} from "react-icons/im"
+import {CgWebsite} from "react-icons/cg"
 
 const data = [
   {
@@ -13,12 +14,21 @@ const data = [
     icon: <FaGamepad/>,
     description: "Mobile Party Game",
     TnT: "Flutter, GraphQL, Fastify, Dart",
-    activities: "Rubble is a fast-paced, multiplayer party game that can be played on a mobile device. Players are tasked with creating structures using virtual blocks, and must work together to build a stable structure before time runs out. Once the structure is complete, players must then try to knock it down by tapping on the screen to remove blocks. The player who removes the final block and causes the structure to collapse wins the round. Rubble is great for social gatherings and is perfect for people of all ages. It's easy to learn and provides endless entertainment.",
+    activities: "Rubble is an exciting mobile party game. With a selection of five diverse and engaging games, players can join virtual parties and challenge each other in real-time gameplay. This innovative app redefines social interaction by offering a platform where players can seamlessly connect, choose their favorite game, and enjoy hours of fun together. Whether it's testing quick reflexes or engaging in strategic gameplay, Rubble creates a vibrant, interactive community, where friends and strangers alike can bond over shared gaming adventures, making every party a memorable experience.",
     title: "Rubble",
     github: "https://github.com/Jadsy/Rubble_MVP",
   },
   {
     id: 2,
+    icon: <CgWebsite/>,
+    description: "Volunteering Events Website",
+    TnT: "React, NodeJS, MySQL, Figma, JavaScript, CSS, HTML",
+    activities: "Kolona Lel Watan is a collaborative project that serves as a vital bridge between NGOs and volunteers. It allows NGOs to easily post upcoming events, and prospective volunteers can browse these events and reserve their spots. This initiative fosters community engagement by making it simple for individuals to find and participate in meaningful volunteer opportunities, contributing to the greater good.",
+    title: "Kolona Lel Watan",
+    github: "https://github.com/Elkay02/Kolona-Lel-Watan",
+  },
+  {
+    id: 3,
     icon: <BsBricks/>,
     description: "NFT advertisement website",
     TnT: "React, JavaScript, CSS, HTML ",
@@ -27,7 +37,7 @@ const data = [
     github: "https://github.com/NFTbriks/nftbriks",
   },
   {
-    id: 3,
+    id: 4,
     icon: <MdOutlineFastfood/>,
     description: "Mobile virtual cookbook",
     TnT: "Android Studio, Django, Java, Python, Figma, Volley",
@@ -36,7 +46,7 @@ const data = [
     github: "https://github.com/Elkay02/CookingHubFrontend",
   },
   {
-    id: 4,
+    id: 5,
     icon: <HiOutlineBookOpen/>,
     description: "AUB Course Dictionary",
     TnT: "Java, Eclipse IDE",
@@ -45,22 +55,13 @@ const data = [
     github: "https://github.com/Elkay02/CourSeera",
   },
   {
-    id: 5,
+    id: 6,
     icon: <ImStatsDots/>,
     description: "Linear Regression Analysis",
     TnT: "Python, Jupyter Hub",
     activities: "For this project, a Linear Regression Analysis was conducted to examine the relationship between Education rate and Mortality rate in each US state. Data was collected and analyzed to determine if there was a correlation between the two variables. The results showed that there was a significant negative relationship between Education rate and Mortality rate, meaning that states with higher Education rates tend to have lower Mortality rates. Further analysis was performed to determine the strength and significance of this relationship.",
     title: "Education/Mortality Study",
     github: "https://github.com/Elkay02/Education-Mortality-Study",
-  },
-  {
-    id: 6,
-    icon: <ImStatsBars/>,
-    description: "Annual Report Analysis",
-    TnT: "Microsoft Office",
-    activities: "The Annual Report Analysis examined the financial performance of Inditex, a multinational fashion group. A variety of financial statements and metrics were analyzed to evaluate the company's financial health and performance over the past year. The analysis included a review of Inditex's revenue, expenses, profits, and asset management, as well as a comparison to industry benchmarks and competitors. The results of the analysis were used to identify trends and areas of strength and weakness within the company, and to make recommendations for future financial planning and strategy.",
-    title: "Inditex Report",
-    github: "https://github.com/Elkay02/Inditex-Financial-Report",
   },
 ]
 
