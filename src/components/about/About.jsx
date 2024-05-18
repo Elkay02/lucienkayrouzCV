@@ -1,11 +1,17 @@
 import React from 'react'
 import "./about.css"
+import CW from "../../assets/codeworks_logo.jpeg"
 import AUB from "../../assets/aub.png"
 import AUP from "../../assets/aup.jpg"
 import CNDJ from "../../assets/cndj.jpg"
 
 
 const data = [
+  {
+    logo: CW,
+    name: "Codeworks",
+    diploma: "Coding Bootcamp Specializing in Web Development"
+  },
   {
     logo: AUB,
     name: "American University of Beirut",
@@ -29,22 +35,22 @@ const About = () => {
       <h5>Enough about me. Let's talk about my</h5>
       <h2>Education</h2>
       <div className="container education_container">
-{      data.map(({logo, name, diploma}, index) => {
-            return(
-              <div key={index} className="education_card">
+        {data.map(({ logo, name, diploma }, index) => {
+          return (
+            <div key={index} className="education_card">
               <div className="education_logo">
                 <img src={logo} alt="Logo One" />
               </div>
               <div></div>
               <div>
-              <h3 className="education_name">{name}</h3>
-              <small className="education_diploma">
-                {diploma}
-              </small>
+                <h3 className="education_name">{name}</h3>
+                <small className="education_diploma">
+                  {diploma}
+                </small>
               </div>
-              </div>
-            )
-          })}
+            </div>
+          )
+        })}
       </div>
     </section>
   )
